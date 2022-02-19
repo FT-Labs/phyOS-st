@@ -1,6 +1,7 @@
 static char *fonts[] = {"Terminus (TTF):style=Bold:pixelsize=24:antialias=true:autohint=true",
 						"Consolas:style=Regular:pixelsize=24:antialias=true:autohint:true",
-						"SF Mono:style=Regular:pixelsize=20:antialias=true:autohint=true"};
+						"SF Mono:style=Regular:pixelsize=20:antialias=true:autohint=true",
+						"JetBrains Mono:style=Regular:pixelsize=20"};
 static char *font2[] = { "JoyPixels:pixelsize=18:antialias=true:autohint=true" };
 static int borderpx = 2;
 static int fonts_current = 0;
@@ -104,11 +105,11 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.8;
+float alpha = 1.0;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#32302f", /* hard contrast: #1d2021 / soft contrast: #32302f */
+	"#1d2021", /* hard contrast: #1d2021 / soft contrast: #32302f */
 	"#f28fad",
 	"#abe9b3",
 	"#fae3b0",
