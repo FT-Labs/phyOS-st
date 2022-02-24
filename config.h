@@ -1,6 +1,6 @@
-static char *fonts[] = {"Terminus (TTF):style=Bold:pixelsize=24:antialias=true:autohint=true",
-						"Consolas:style=Regular:pixelsize=24:antialias=true:autohint:true",
-						"SF Mono:style=Regular:pixelsize=20:antialias=true:autohint=true",
+static char *fonts[] = {"TerminessTTF Nerd Font:style=Medium:pixelsize=24",
+						"Consolas:style=Regular:pixelsize=24",
+						"SF Mono:style=Regular:pixelsize=20",
 						"JetBrains Mono:style=Regular:pixelsize=20"};
 static char *font2[] = { "JoyPixels:pixelsize=18:antialias=true:autohint=true" };
 static int borderpx = 2;
