@@ -54,7 +54,6 @@ install: st
 	mkdir -p $(DESTDIR)$(PREFIX)/share/applications
 	mkdir -p $(DESTDIR)$(PREFIX)/share/pixmaps
 	cp -f st.desktop $(DESTDIR)$(PREFIX)/share/applications
-	cp -f phyos-logo.png $(DESTDIR)$(PREFIX)/share/pixmaps
 	@echo Please see the README file regarding the terminfo entry of st.
 
 uninstall:
