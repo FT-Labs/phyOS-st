@@ -4,7 +4,7 @@
 
 include config.mk
 
-SRC = st.c x.c boxdraw.c hb.c
+SRC = st.c x.c boxdraw.c hb.c logo.h
 OBJ = $(SRC:.c=.o)
 
 all: options st
