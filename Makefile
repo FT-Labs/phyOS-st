@@ -52,7 +52,6 @@ install: st
 	chmod 755 $(DESTDIR)$(PREFIX)/bin/st-urlhandler
 	tic -sx st.info
 	mkdir -p $(DESTDIR)$(PREFIX)/share/applications
-	mkdir -p $(DESTDIR)$(PREFIX)/share/pixmaps
 	cp -f st.desktop $(DESTDIR)$(PREFIX)/share/applications
 	@echo Please see the README file regarding the terminfo entry of st.
 
@@ -61,6 +60,5 @@ uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/bin/st-copyout
 	rm -f $(DESTDIR)$(PREFIX)/bin/st-urlhandler
 	rm -f $(DESTDIR)$(PREFIX)/share/applications/st.desktop
-	rm -f $(DESTDIR)$(PREFIX)/share/pixmaps/phyos-logo
 
 .PHONY: all options clean dist install uninstall
