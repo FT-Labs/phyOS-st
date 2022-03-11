@@ -3,7 +3,7 @@
  - Installation for arch users
  Check link below to append phyOS repo in your **/etc/pacman.conf**
  
- github.com/phytech-r0/dwm-phyOS
+ [dwm-phyOS] (github.com/phytech-r0/dwm-phyOS)
 
  After adding the repo, install easily with:
     pacman -S st-phyOS fonts-phyOS
