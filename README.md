@@ -12,7 +12,7 @@
  - Installation for any distro
  You need to install fonts to your system first (Nerd fonts, including all glyphs etc.):
  
-    git clone github.com/phytech-r0/fonts-phyOS
+    	git clone github.com/phytech-r0/fonts-phyOS
 	cd fonts-phyOS && sudo mv *.otf *.ttf /usr/fonts/ttf
 	sudo fc-cache
  After that, install st with:
