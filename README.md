@@ -12,13 +12,14 @@
  - Installation for any distro
  You need to install fonts to your system first (Nerd fonts, including all glyphs etc.):
  
-    	git clone github.com/phytech-r0/fonts-phyOS
-	cd fonts-phyOS && sudo mv *.otf *.ttf /usr/fonts/ttf
-	sudo fc-cache
+    git clone github.com/phytech-r0/fonts-phyOS
+    cd fonts-phyOS && sudo mv *.otf *.ttf /usr/fonts/ttf
+    sudo fc-cache
+    
  After that, install st with:
  
-    	git clone github.com/phytech-r0/st-phyOS
-	cd dwmblocks-phyOS && make && sudo make install
+    git clone github.com/phytech-r0/st-phyOS
+    cd dwmblocks-phyOS && make && sudo make install
 
 ## Default keybinds
 
