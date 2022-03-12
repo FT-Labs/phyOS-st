@@ -3,7 +3,7 @@ static char *fonts[] = {"Terminus (TTF):style=Medium:pixelsize=24",
 						"SF Mono:style=Regular:pixelsize=20",
 						"JetBrains Mono:style=Regular:pixelsize=20"};
 static char *font2[] = { "JoyPixels:pixelsize=18:antialias=true:autohint=true" };
-static int borderpx = 2;
+static int borderpx = 0;
 static int fonts_current = 0;
 
 /*
@@ -105,7 +105,8 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.8;
+float alpha = 0.8, alphaUnfocused = 0.45;
+unsigned int bg = 258, bgUnfocused = 258;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
