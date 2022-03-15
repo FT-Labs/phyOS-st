@@ -12,7 +12,7 @@ optdepends=('dmenu')
 provides=("st")
 conflicts=("st")
 options=('zipman')
-source=('git://github.com/PhyTech-R0/st-phyOS')
+source=('git+https://github.com/PhyTech-R0/st-phyOS')
 md5sums=('SKIP')
 
 prepare() {
