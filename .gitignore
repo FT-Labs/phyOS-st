@@ -3,3 +3,5 @@ st
 pkg/
 *.pkg.tar.xz
 patches
+**/compile_commands.json
+**/.cache
