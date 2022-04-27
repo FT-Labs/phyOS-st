@@ -1,6 +1,6 @@
 # Maintainer: Arda Atci<phystecharda@gmail.com>
 pkgname=st-phyOS
-pkgver=0.8.2
+pkgver=0.8.3
 pkgrel=1
 pkgdesc="st build for phyOS"
 arch=(x86_64)
