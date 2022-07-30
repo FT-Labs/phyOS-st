@@ -3,25 +3,24 @@
 
  - Installation for arch users
  Check link below to append phyOS repo in your **/etc/pacman.conf**
-
+ 
  [dwm-phyOS](github.com/phytech-r0/dwm-phyOS)
 
  After adding the repo, install easily with:
-
+ 
     pacman -S st-phyOS fonts-phyOS
-
+    
  - Installation for any distro
 #### You need to install fonts to your system first (Nerd fonts, including all glyphs etc.):
 
     git clone github.com/phytech-r0/fonts-phyOS
     cd fonts-phyOS && sudo mv *.otf *.ttf /usr/fonts/ttf
     sudo fc-cache
-
+    
  After that, install st with:
-
+ 
     git clone github.com/phytech-r0/st-phyOS
-    cd dwmblocks-phyOS
-	make && sudo make install
+    cd dwmblocks-phyOS && make && sudo make install
 
 ## Default keybinds
 

@@ -1,7 +1,7 @@
+compile_commands.json
+.cache/**
 st
 *.o
 pkg/
 *.pkg.tar.xz
 patches
-**/compile_commands.json
-**/.cache
