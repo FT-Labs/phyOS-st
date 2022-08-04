@@ -1,6 +1,7 @@
 static char *fonts[] = {"TerminessTTF Nerd Font:style=Medium:pixelsize=24",
 						"Consolas Nerd Font:style=Regular:pixelsize=24",
-						"JetBrains Mono:style=Regular:pixelsize=20"};
+						"JetBrains Mono:style=Regular:pixelsize=24",
+                        "MesloLGS NF:style=Regular:pixelsize=24"};
 static char *font2[] = { "Material Design Icons Desktop:style=Regular:pixelsize=20", "JoyPixels:pixelsize=18:antialias=true:autohint=true", };
 static int borderpx = 2;
 static int fonts_current = 0;
