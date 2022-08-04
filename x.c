@@ -265,6 +265,7 @@ static char *opt_io    = NULL;
 static char *opt_line  = NULL;
 static char *opt_name  = NULL;
 static char *opt_title = NULL;
+static char *opt_dir   = NULL;
 
 static int oldbutton = 3; /* button event on startup: 3 = release */
 
@@ -2191,6 +2192,9 @@ main(int argc, char *argv[])
 	case 'c':
 		opt_class = EARGF(usage());
 		break;
+    case 'd':
+        opt_dir = EARGF(usage());
+        break;
 	case 'e':
 		if (argc > 0)
 			--argc, ++argv;
@@ -2248,6 +2252,7 @@ run:
 	xinit(cols, rows);
 	xsetenv();
 	selinit();
+    chdir(opt_dir);
 	run();
 
 	return 0;
