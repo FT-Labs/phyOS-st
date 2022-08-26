@@ -1993,7 +1993,10 @@ cmessage(XEvent *e)
 		}
 	} else if (e->xclient.data.l[0] == xw.wmdeletewin) {
 		ttyhangup();
-		exit(0);
+        if (opt_name && strcmp(opt_name, "physet-run"))
+            exit(0);
+        else
+            exit(1);
 	}
 }
 
@@ -2252,7 +2255,6 @@ run:
 	xinit(cols, rows);
 	xsetenv();
 	selinit();
-    chdir(opt_dir);
 	run();
 
 	return 0;
